@@ -22,4 +22,4 @@ account_id:
 Query the accounts table/collection to find accounts associated with the
 customer's ID, then aggregate the balances.
 
-```Account.where(customer_id: [1, 2, 3]).sum(:balance)```
+```Account.where(customer_id: 1).sum(:balance)```
